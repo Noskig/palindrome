@@ -1,9 +1,10 @@
 
 :root{
-    --primary-color: #1d5888;
+    --primary-color: #35422b;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color:#dfeaf3;
+    --light-green:#bfd699;
 }
 
 body{
@@ -11,11 +12,15 @@ body{
 }
 
 nav{
-    background-color: var(--dark-color);
+    background-color: var(--light-green);
+    
+}
+.nav-item .li{
+    color:var(--dark-color)
 }
 
 footer{
-    background-color: var(--dark-color);
+    background-color: var(--light-green);
     padding-right:1rem;
 }
 footer .social> a{
